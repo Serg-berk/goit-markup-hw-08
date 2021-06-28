@@ -1,10 +1,3 @@
-/* .our-works {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-} */
-
 .our-work {
   transition-property: box-shadow, background-color;
   transition-duration: 250ms;
@@ -24,7 +17,6 @@
 }
 
 .our-work-img-overlay {
-  display: inline-block;
   position: absolute;
   top: 0;
   right: 0;
@@ -73,12 +65,13 @@
     margin-left: 15px;
     margin-top: 15px;
   }
+  .our-work-img-overlay {
+    padding: 49px 24px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .our-works {
-    display: flex;
-    flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
   }
