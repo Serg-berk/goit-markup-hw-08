@@ -673,6 +673,10 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .header__mob-menu-btn {
     display: none;
   }
@@ -1338,17 +1342,23 @@ body {
   letter-spacing: 0.03em;
 }
 
+@media screen and (max-width: 767px) {
+  .our-work:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .our-works {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-top: -15px;
+    margin-left: -30px;
+    margin-top: -30px;
   }
   .our-work {
     flex-basis: calc((100% - 60px) / 2);
-    margin-left: 15px;
-    margin-top: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
   }
   .our-work-img-overlay {
     padding: 49px 24px;
